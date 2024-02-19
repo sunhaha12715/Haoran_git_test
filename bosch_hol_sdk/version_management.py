@@ -4,6 +4,7 @@ import json
 import pathlib
 import re
 import xml.etree.ElementTree as ET
+import numpy
 
 
 API_VERSION_PATTERN = r"""
