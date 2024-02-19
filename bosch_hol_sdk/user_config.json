@@ -1,0 +1,30 @@
+{
+    "ports_to_connect_master": [
+        "SideFrontCam01",
+        "SideFrontCam02",
+        "SideRearCam02",
+        "SurCam04",
+        "SideRearCam01",
+        "SurCam02",
+        "SurCam01",
+        "SurCam03"
+    ],
+    "ports_to_connect_slave": [
+        "FrontCam02",
+        "FrontCam01",
+        "RearCam01",
+        "CornerRadar02",
+        "CornerRadar04",
+        "CornerRadar03",
+        "FrontRadar01",
+        "USS",
+        "rtk01",
+        "VCar01",
+        "VCar02",
+        "VCar03",
+        "CornerRadar01"
+    ],
+    "ports_to_connect_slave_2": [
+        "FrontLidar01"
+    ]
+}
