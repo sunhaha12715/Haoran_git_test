@@ -122,7 +122,9 @@ class RtmapsConnection():
 
         original_first_time = first_time
         original_last_time = last_time
-
+        #Set offset so that the start time and end time can be set to relative times
+        rtmaps.set_property(name, 'offset', original_first_time)
+        
         if replay_time:
             if replay_time.start > last_time or replay_time.end < first_time:
                 # Nothing to be replayed so end the job.
